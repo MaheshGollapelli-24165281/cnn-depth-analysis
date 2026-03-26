@@ -69,19 +69,37 @@ Three models are compared:
 
 ---
 
-##  How to Run
+##  How to Run the Project
 
+### 1. Clone the repository
 ```bash
 git clone https://github.com/MaheshGollapelli-24165281/cnn-depth-analysis.git
 cd cnn-depth-analysis
+```
+
+### 2. Install dependencies
+```bash
 pip install -r requirements.txt
+```
+
+### 3. Launch Jupyter Notebook
+```bash
 jupyter notebook
 ```
 
-Open:
+### 4. Open the notebook
 ```text
 cnn_depth_analysis_24165281.ipynb
 ```
+
+### 5. Run all cells
+
+- Training & validation curves  
+- Accuracy comparison  
+- Confusion matrix  
+- Classification report  
+- Sample predictions  
+- Feature maps  
 
 ---
 
@@ -89,8 +107,6 @@ cnn_depth_analysis_24165281.ipynb
 
 - Few minutes training time  
 - GPU recommended  
-
----
 
 ##  Accessibility
 
