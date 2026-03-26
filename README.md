@@ -1,6 +1,6 @@
 # CNN Depth Analysis: How CNN Depth Shapes Feature Learning
 
-**Author:** Mahesh  
+**Author:** Mahesh Gollapelli
 **Student ID:** 24165281  
 **Module:** Machine Learning Tutorial Assignment  
 **GitHub Repository:** https://github.com/MaheshGollapelli-24165281/cnn-depth-analysis  
@@ -146,7 +146,7 @@ cnn_depth_analysis_24165281.ipynb
 
 ##  License
 
-MIT License (see LICENSE.txt)
+MIT License (see LICENSE)
 
 ---
 
