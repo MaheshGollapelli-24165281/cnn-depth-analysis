@@ -64,8 +64,7 @@ Three models are compared:
 - `CNN_Depth_Analysis_24165281.pdf`  
 - `README.md`  
 - `requirements.txt`  
-- `LICENSE.txt`  
-- `images/`  
+- `LICENSE`    
 
 ---
 
