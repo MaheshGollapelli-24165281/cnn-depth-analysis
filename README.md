@@ -3,64 +3,48 @@
 **Author:** Mahesh  
 **Student ID:** 24165281  
 **Module:** Machine Learning Tutorial Assignment  
-**GitHub Repository:** https://github.com/YOUR-USERNAME/cnn-depth-analysis  
+**GitHub Repository:** https://github.com/MaheshGollapelli-24165281/cnn-depth-analysis  
 
 ---
 
-## Project Overview
+##  Project Overview
 
-This project investigates how the **depth of Convolutional Neural Networks (CNNs)** affects feature learning and classification performance using the **CIFAR-10 dataset**.
+This project investigates how the depth of Convolutional Neural Networks (CNNs) affects feature learning and classification performance using the CIFAR-10 dataset.
 
-Three models with increasing depth are compared:
+Three models are compared:
 
-- **Shallow CNN** (2 convolutional layers)  
-- **Medium CNN** (4 convolutional layers)  
-- **Deep CNN** (6 convolutional layers)  
-
-The aim is to understand how deeper networks learn more abstract representations and to explore the trade-offs between accuracy, computational cost, and overfitting.
+- Shallow CNN (2 layers)  
+- Medium CNN (4 layers)  
+- Deep CNN (6 layers)  
 
 ---
 
-## Tutorial Focus
+##  Tutorial Focus
 
-> **How does CNN depth affect feature learning and classification performance?**
+> How does CNN depth affect feature learning and classification performance?
 
-- How feature representations evolve across layers  
-- How model performance changes with depth  
-- Why deeper models are not always significantly better  
+- Feature evolution across layers  
+- Model performance differences  
+- Trade-offs of deeper architectures  
 
 ---
 
 ##  Dataset
 
-- CIFAR-10 dataset (via TensorFlow)  
-- 60,000 colour images  
-- 10 classes  
-- Image size: 32 × 32 pixels  
-- No manual download required  
+- CIFAR-10 dataset  
+- 60,000 images (10 classes)  
+- 32×32 resolution  
+- Loaded via TensorFlow  
 
 ---
 
-## 📊 Results Summary
+##  Results Summary
 
-| Model         | Test Accuracy |
-|--------------|-------------|
+| Model        | Test Accuracy |
+|--------------|--------------|
 | Shallow CNN  | 68.7%        |
 | Medium CNN   | 73.8%        |
 | Deep CNN     | 74.0%        |
-
-### Key Findings
-
-- Performance improves with depth  
-- Largest gain: **shallow → medium**  
-- Diminishing returns at higher depth  
-- Deeper models learn more abstract features  
-
-**Trade-offs:**
-
-- Higher computation  
-- Longer training  
-- Overfitting risk  
 
 ---
 
@@ -70,95 +54,72 @@ The aim is to understand how deeper networks learn more abstract representations
 - Accuracy comparison  
 - Confusion matrix  
 - Classification report  
-- Predictions  
-- Feature maps  
+- Feature map visualisation  
 
 ---
 
-## Repository Structure
+##  Repository Structure
 
-notebook/        → Jupyter notebook (main code)  
-report/          → Final PDF report  
-images/          → Figures used in the report  
-requirements.txt → Dependencies  
-README.md        → Project description  
-LICENSE          → Usage permissions  
+- `cnn_depth_analysis_24165281.ipynb`  
+- `CNN_Depth_Analysis_24165281.pdf`  
+- `README.md`  
+- `requirements.txt`  
+- `LICENSE.txt`  
+- `images/`  
 
 ---
----
 
-##  How to Run the Project
+##  How to Run
 
-### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR-USERNAME/cnn-depth-analysis.git
+git clone https://github.com/MaheshGollapelli-24165281/cnn-depth-analysis.git
 cd cnn-depth-analysis
-```
-
-### 2. Install dependencies
-```bash
 pip install -r requirements.txt
-```
-
-### 3. Launch Jupyter Notebook
-```bash
 jupyter notebook
 ```
 
-### 4. Open the notebook
+Open:
 ```text
-mahesh_24165281.ipynb
+cnn_depth_analysis_24165281.ipynb
 ```
 
-### 5. Run all cells
-
-- Training & validation curves  
-- Accuracy comparison  
-- Confusion matrix  
-- Classification report  
-- Sample predictions  
-- Feature maps  
-
 ---
 
-## ⏱ Runtime Notes
+##  Runtime
 
-- Training may take a few minutes  
+- Few minutes training time  
 - GPU recommended  
-- Fully reproducible (no manual setup needed)  
 
 ---
 
-## Accessibility
+##  Accessibility
 
 - Clear headings  
 - Labelled plots  
 - Explanations for visuals  
 - Colour-blind friendly (`viridis`)  
 - Simple language  
-
 ---
 
-## Ethical Considerations
+##  Ethical Considerations
 
 - Dataset bias may exist  
 - Some classes are harder to classify  
 - Deep models use more resources  
-- Responsible AI use is important  
-
+- Responsible AI use is important 
 ---
 
-## References
+##  References
 
-- Goodfellow et al. (2016) *Deep Learning*  
-- LeCun et al. (2015) *Deep learning*  
+- Goodfellow et al. (2016)  
+- LeCun et al. (2015)  
 - Krizhevsky (2009)  
 - Simonyan & Zisserman (2015)  
 - https://www.tensorflow.org  
 
 ---
 
-## Requirements
+##  Requirements
 
 - TensorFlow  
 - NumPy  
@@ -169,16 +130,12 @@ mahesh_24165281.ipynb
 
 ##  License
 
-MIT License — see `LICENSE.txt`
+MIT License (see LICENSE.txt)
 
 ---
 
-##  Final Summary
+##  Summary
 
 - CNN depth improves feature learning  
 - Deeper models capture complex patterns  
 - Gains reduce at higher depth  
-- Balance accuracy vs cost  
-
----
-
