@@ -2,7 +2,7 @@
 
 **Author:** Mahesh Gollapelli  
 **Student ID:** 24165281  
-**Module:** Machine Learning Tutorial Assignment   
+**Module:** Machine Learning and Neural Networks  
 **GitHub Repository:** https://github.com/MaheshGollapelli-24165281/cnn-depth-analysis  
 
 ---
